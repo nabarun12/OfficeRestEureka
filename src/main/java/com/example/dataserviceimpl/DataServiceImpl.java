@@ -18,8 +18,11 @@ public class DataServiceImpl implements DataService {
         Sampledata data2 = new Sampledata("chandler", 31);
 		dataList.add(data1);
 		dataList.add(data2);
-		return dataList;
-
+		//return dataList;
+        StringBuilder  strB = new StringBuilder("");
+        strB.delete(0, strB.length());
+        
+        return dataList;
 	}
 
 }
